@@ -9,10 +9,10 @@ import lombok.Data;
 @Data
 public class BarRequestMessage {
 
-    private List<BarItem> barItems;
+   List<BarItem> barItems;
 
-    private String orderId;
+    String orderId;
     
-    private OrderStatus barStatus;
+    OrderStatus barStatus;
 
 }
